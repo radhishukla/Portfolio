@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RADHIKA SHUKLA - PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b04efdb9c1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container"></div>
+        <nav>
+            <img src="Logo Radhika.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Frontend Developer - AIML Engineer</p>
+            <h1>Hi, I'm <span>Radhika</span> <br> From Nagpur, Maharashtra.</h1>
+        </div>
+    </div>
+    <!-- ------about------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image Radhika.jpg" alt="User Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Frontend Developer and an AIML Engineer seeking an internship in Frontend Development.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                        <p class="tab-links" onclick="opentab('internships', event)">Internships</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technical Skills</span><br> Frontend Development, C, Google Ads, Digital Marketing </li>
+                            <li><span>Soft Skills</span><br> Leadership, Time Management, Human Resource Management</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2026</span><br> B.Tech in CSE(AIML)<br> Participant of Google Cloud Study Jam - GDSC RCOEM </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="internships">
+                        <ul>
+                            <li><span>Nov-Feb 2023</span><br>Human Resource Management Internship<br>Lernx<br> Acquired expertise in Organizational and 
+                                Interpersonal Skills, enhanced Interpersonal Communication. Excelled in Hiring Department and recieved incentives
+                            and a certification for my best performance. Got promoted to Team Leading Department.</li>
+                            <li><span>Jan 2024</span><br>SalesForce Virtual Internship<br>SmartInternz<br>Description</li>
+                            <li><span>2024</span><br> AWS Cloud Virtual Internship<br>AWS NEAT<br> Description</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------services---------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+            <div class="service-item">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Expertise in HTML, CSS, JavaScript, Figma.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service-item">
+                <i class="fa-brands fa-figma"></i></i>
+                <h2>UI/UX Design</h2>
+                <p>Expertise in Wireframing and Prototsyping.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------portfolio---------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="movie.webp">
+                <div class="layer">
+                    <h3>Mobile Movie Ticket Booking App</h3>
+                    <p>High Fidelity Prototype</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Writer Radhika.jpg">
+                <div class="layer">
+                <h3>Beautiful Ecstacy Anthology: A Joy in Growing Together</h3>
+                <p>Co-author of the book. Shared this amazing writing experience with wonderful writers and readers.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="web dev.jpg">
+                <div class="layer">
+                <h3>Frontend Web Development</h3>
+                <p>Coming Soon</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- ---------contact--------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> radhishukla03@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8766043165</p>
+                <div class="social-icons">
+                    <a href="www.linkedin.com/in/radhishukla03"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/radhishukla"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/_radhishukla"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Radhika CV Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Radhika Shukla. Made with <i class="fas fa-heart"></i> by Radhika Shukla</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname, event) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbySF070I-GANUjH19UERTVPF21nLp6AXTzt6hqU-il35surL9NQS6RNSwI0dVVcS7mDPQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
